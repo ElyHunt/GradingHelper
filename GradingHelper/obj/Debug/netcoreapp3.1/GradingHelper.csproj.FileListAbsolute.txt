@@ -1,0 +1,13 @@
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\bin\Debug\netcoreapp3.1\GradingHelper.exe
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\bin\Debug\netcoreapp3.1\GradingHelper.deps.json
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\bin\Debug\netcoreapp3.1\GradingHelper.runtimeconfig.json
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\bin\Debug\netcoreapp3.1\GradingHelper.runtimeconfig.dev.json
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\bin\Debug\netcoreapp3.1\GradingHelper.dll
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\bin\Debug\netcoreapp3.1\GradingHelper.pdb
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\obj\Debug\netcoreapp3.1\GradingHelper.AssemblyInfoInputs.cache
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\obj\Debug\netcoreapp3.1\GradingHelper.AssemblyInfo.cs
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\obj\Debug\netcoreapp3.1\GradingHelper.csproj.CoreCompileInputs.cache
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\obj\Debug\netcoreapp3.1\GradingHelper.dll
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\obj\Debug\netcoreapp3.1\GradingHelper.pdb
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\obj\Debug\netcoreapp3.1\GradingHelper.genruntimeconfig.cache
+C:\Users\ehunt\source\repos\GradingHelper\GradingHelper\obj\Debug\netcoreapp3.1\GradingHelper.csproj.AssemblyReference.cache

@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GradingHelper/1.0.0": {
+        "dependencies": {
+          "7-Zip.CommandLine": "18.1.0"
+        },
+        "runtime": {
+          "GradingHelper.dll": {}
+        }
+      },
+      "7-Zip.CommandLine/18.1.0": {}
+    }
+  },
+  "libraries": {
+    "GradingHelper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "7-Zip.CommandLine/18.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jHUxQQLmjSsjR9WS+OPrBYEuHrtSXey6xHIjFjN1Px1MoxyOaIGjYUSo2iayVxMFs64/TiuF/EopCu2mPRoTuA==",
+      "path": "7-zip.commandline/18.1.0",
+      "hashPath": "7-zip.commandline.18.1.0.nupkg.sha512"
+    }
+  }
+}

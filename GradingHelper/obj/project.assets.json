@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "7-Zip.CommandLine/18.1.0": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "7-Zip.CommandLine/18.1.0": {
+      "sha512": "jHUxQQLmjSsjR9WS+OPrBYEuHrtSXey6xHIjFjN1Px1MoxyOaIGjYUSo2iayVxMFs64/TiuF/EopCu2mPRoTuA==",
+      "type": "package",
+      "path": "7-zip.commandline/18.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "7-zip.commandline.18.1.0.nupkg.sha512",
+        "7-zip.commandline.nuspec",
+        "tools/7-zip.chm",
+        "tools/7za.exe",
+        "tools/License.txt",
+        "tools/readme.txt",
+        "tools/x64/7za.exe"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "7-Zip.CommandLine >= 18.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ehunt\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ehunt\\source\\repos\\GradingHelper\\GradingHelper\\GradingHelper.csproj",
+      "projectName": "GradingHelper",
+      "projectPath": "C:\\Users\\ehunt\\source\\repos\\GradingHelper\\GradingHelper\\GradingHelper.csproj",
+      "packagesPath": "C:\\Users\\ehunt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ehunt\\source\\repos\\GradingHelper\\GradingHelper\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ehunt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "7-Zip.CommandLine": {
+            "target": "Package",
+            "version": "[18.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
