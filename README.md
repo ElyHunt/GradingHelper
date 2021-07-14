@@ -5,14 +5,18 @@ It's mostly for personal use, but I'm storing it here in case anybody else wants
 it or build upon it.
 
 ### It does 3 main things:
-⚪ Unzips all submissions
+⚪ Unzips all submissions, even if the zips are "stacked".
+
 ⚪ Stores each submission in its own folder
-⚪ Creates a .txt file for grading purposes for each submission.
+
+⚪ Creates a .txt file for grading purposes with each submission listed and some general grading information.
 
 ### Some minor things:
 ⚫ Depending on the class you're grading for, you can change how the .txt file is generated.
-⚫ 
+
 ⚫ All the zip files are stored in a zip folder.
+
+⚫ This program solves the problem of repeated copy-pasting and unzipping submissions by hand, saving time.
 
 ### For the future:
 Check the Issues section. :)
