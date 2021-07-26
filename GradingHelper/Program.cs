@@ -131,17 +131,14 @@ namespace GradingHelper
             ConsoleKey key;
             do
             {
-                Console.WriteLine("Is this for DSA? (This affects the grades.txt generation.) Y or N. :)");
+                Console.WriteLine("Is this for DSA? (This affects the grades.txt generation.) Y or N. :) Q to Quit.");
                 key = Console.ReadKey().Key;
             }
 
-            while (key != ConsoleKey.Y && key != ConsoleKey.N);
+            while (key!= ConsoleKey.Q && key != ConsoleKey.Y && key != ConsoleKey.N);
 
-            if (key == ConsoleKey.Y)
-            {
-               return true;
-            }
-
+            if (key == ConsoleKey.Q) Environment.Exit(0);
+            if (key == ConsoleKey.Y) return true;
             return false;
         }
 
