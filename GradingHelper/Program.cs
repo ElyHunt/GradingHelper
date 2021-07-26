@@ -17,19 +17,11 @@ namespace GradingHelper
             Console.WriteLine("Hello! Please enter the directory which you'd like to unzip.\n\n");
             string directoryName = Console.ReadLine();
 
-            ConsoleKey key;
-            bool DSA = false;
-            do
-            {
-                Console.WriteLine("Is this for DSA? (This affects the grades.txt generation.) Y or N. :)");
-                key = Console.ReadKey().Key;
-            }
-            while (key != ConsoleKey.Y && key != ConsoleKey.N);
+            bool DSA = isDSA();
+            //DSA stands for Data Structures and Algorithms and is a class I commonly grade for.
+            //If the class is not DSA, then a more generically formatted grading file is generated later.
 
-           if(key == ConsoleKey.Y)
-            {
-                DSA = true;
-            }
+
 
 
             Console.WriteLine("\n\nUnzipping Files...\n\n");
@@ -132,6 +124,25 @@ namespace GradingHelper
             Console.WriteLine("\n\n All done! Thanks again! :D\n\n");
 
 
+        }
+
+        public static bool isDSA()
+        {//Asks user whether or not the class they're grading for is DSA.
+            ConsoleKey key;
+            do
+            {
+                Console.WriteLine("Is this for DSA? (This affects the grades.txt generation.) Y or N. :)");
+                key = Console.ReadKey().Key;
+            }
+
+            while (key != ConsoleKey.Y && key != ConsoleKey.N);
+
+            if (key == ConsoleKey.Y)
+            {
+               return true;
+            }
+
+            return false;
         }
 
         public static string GenerateGradingBody(bool dsa)
