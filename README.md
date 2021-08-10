@@ -4,6 +4,11 @@ This is the grading helper program I made to help with processing student submis
 It's mostly for personal use, but I'm storing it here in case anybody else wants to use
 it or build upon it.
 
+When downloading bulk student submissions, they are stored in one giant compressed file.
+Each student submission is typically one folder deep and stored as a .zip.
+
+This program loops through and unzips everything for you and generates a grading file for you to fill in as you grade.
+
 ### It does 3 main things:
 ⚪ Unzips all submissions, even if the zips are "stacked".
 
